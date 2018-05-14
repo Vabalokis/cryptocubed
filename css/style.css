@@ -1,0 +1,1193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body */
+
+body {
+    text-align: center;
+
+}
+
+body h2 {
+    margin: 0 400px 0 400px;
+    padding-bottom: 30px;
+  
+}
+
+/* footer */
+
+footer {
+    padding-bottom: 20px;
+    text-align: left;
+    color: black;
+    background-color: #eff0f0;
+}
+
+footer hr {
+    padding-top: 15px;
+    margin: 0 50px 0 50px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top: 0;
+}
+
+.gr {
+  background-color: #f6f7f4;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.footcent {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footiconcent {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.footiconcent i {
+  margin: 0 7px 0 7px;
+}
+
+.footiconcent i:hover {
+  color: white;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.fotlinks {
+  text-align: center;
+}
+
+.fotlinks a {
+  color: black;
+}
+
+.fotlinks a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* header */
+
+.main-header {
+  grid-area: header;
+}
+
+.main-footer {
+  grid-area: footer;
+}
+
+
+header {
+
+    text-align: left;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+
+.navigation {
+    grid-area: nav;
+    float: left;
+    margin-left: 8rem;
+    margin-top: 3.5rem;
+    font-size: 15px;
+    color:black;
+    display: flex;
+    background: white;
+}
+
+.navigation  a {
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
+    display:inline-block;
+    transition: all .3s ease-out;
+    border-bottom:2px solid transparent;
+}
+
+.navigation a:hover {
+    color: orange;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 5px 0 5px;
+    display: inline;
+    cursor: pointer;
+}
+
+.imageandtext {
+    grid-area: logo;
+    position: relative;
+    color: black;
+}
+
+.imageandtext h3 {
+    margin-bottom: 20px;
+}
+
+.crip {
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 10px;
+    left:5px;
+}
+
+.cube {
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 85px;
+}
+
+.imageandtext img {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+
+.headercont {
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  ". hdgrd hdgrd .";
+}
+
+
+.headergrid {
+  grid-area: hdgrd;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  "logo nav nav nav";
+}
+
+.gridTRACK {
+  margin-top: 50px;
+  margin-bottom: 130px;
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". trackcont trackcont .";
+}
+
+.trackcont {
+  color: #666b6f;
+  grid-area: trackcont;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+  grid-template-areas:
+  "january"
+  "coins"
+  "holding"
+  "return"
+  "buysell";
+}
+
+.trackbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 40px;
+  background-color: #fbfbfa;
+  box-shadow: 0 4px 2px rgba(0,0,0,.1);
+}
+
+.circlOUTtrack {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  background-color: white;
+  margin-left: -55px;
+  margin-top: 5px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.circlOUTtrackcoin {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  background-color: white;
+  margin-left: -55px;
+  margin-top: 60px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.circlINtrack {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  background-color: #f9faf8;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.circlINtrack img {
+  margin-top: 14px;
+}
+
+.inl {
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.logot {
+  float: left;
+  display: block;
+  margin: 9px;
+  
+}
+
+.logot img {
+  float: left;
+  display: block;
+  margin-right: 11px;
+}
+
+.logot p {
+  float: left;
+  display: block;
+}
+
+.january {
+  height: 120px;
+  grid-area: january;
+}
+
+.jantxt {
+  margin-left: 25px;
+}
+
+.january h3 {
+  margin-top: 45px;
+}
+
+.holding h3 {
+  margin-top: 50px;
+}
+
+.return h3 {
+  margin-top: 35px;
+}
+
+.buysell h3 {
+  margin-top: 35px;
+}
+
+.trackbox h3 {
+  letter-spacing: 2px;
+  margin-left: 120px;
+  text-align: justify;
+}
+.txtsize {
+  font-size: 28px;
+}
+
+.coins {
+  grid-area: coins;
+  height: 230px;
+}
+.holding {
+  height: 120px;
+  grid-area: holding;
+}
+.buysell {
+  height: 120px;
+  grid-area: buysell;
+}
+.return {
+  height: 120px;
+  grid-area: return;
+}
+
+
+.gridABOUT {
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". aboutcont aboutcont .";
+}
+
+.aboutcont {
+  grid-area: aboutcont;
+}
+
+.aboutcont h1 {
+  letter-spacing: 2px;
+  margin: 0;
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+.aboutcont p {
+  text-align: justify;
+  margin: 0 60px 70px 60px;
+}
+
+.gridGUIDE {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". guidecont guidecont .";
+}
+
+.guidecont {
+  grid-area: guidecont;
+
+}
+.guidecont p {
+  text-align: justify;
+}
+
+.guidecont h3 {
+  margin-top: 25px;
+}
+
+.gridSERVICES {
+  margin-top: 30px;
+  margin-bottom: 130px;
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". servicescont servicescont .";
+}
+
+.servicescont {
+
+  grid-area: servicescont;
+  display: grid;
+  grid-gap: 30px;
+  margin: 0 40px 0 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "invsignals manage"
+  "future coinreq";
+}
+
+.invsignals {
+  margin-top: 100px;
+  grid-area: invsignals;
+
+}
+.manage {
+  margin-top: 100px;
+  grid-area: manage;
+
+}
+.future {
+  margin-top: 100px;
+  grid-area: future;
+
+}
+.coinreq {
+  margin-top: 100px;
+  grid-area: coinreq;
+
+}
+
+.circlOUT {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  border-radius: 70px;
+  background-color: white;
+  margin-left: 150px;
+  margin-top: -450px;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.circlIN {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  background-color: #f9faf8;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.circlIN img {
+  margin-top: 20px;
+}
+
+.contain {
+
+  color: white;
+  position: relative;
+}
+.contain h3 {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 22px;
+   letter-spacing: 2px;
+}
+
+.contain img {
+  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 97.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fcfcfc;
+  color: black;
+  margin-left: 5px;
+  margin-right: 50px;
+
+}
+
+.titletext {
+  margin-top: 110px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.text {
+  text-align: justify;
+  margin: 0 33px 0 33px;
+  font-size: 1em;
+}
+
+.contain:hover .overlay {
+  opacity: 1;
+}
+
+.gridTERMS {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". termscont termscont .";
+}
+
+.termscont {
+  grid-area: termscont;
+}
+
+.gridFAQ {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". faqcont faqcont .";
+}
+
+.faqcont {
+  letter-spacing: 1px;
+  grid-area: faqcont;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  "qmark1 faqtxt1 faqtxt1 faqtxt1 faqtxt1 faqtxt1"
+  "faqtxt2 faqtxt2 faqtxt2 faqtxt2 faqtxt2 qmark2"
+  "qmark3 faqtxt3 faqtxt3 faqtxt3 faqtxt3 faqtxt3";
+}
+
+
+.gridCONTACTUS {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 333px 333px 333px 1fr;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  grid-template-areas:
+  ". . contactcont . .";
+  text-align: center;
+}
+
+.contactcont {
+  grid-area: contactcont;
+  font-size: 20px;
+  
+}
+
+.contactcont input {
+  border:0;
+  margin: 5px 0 5px 0;
+  padding: 3px 15px 3px 15px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.contactcont textarea {
+  border:0;
+  margin: 5px 0 5px 0;
+  padding: 0 15px 0 15px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.qmark1 {
+  grid-area: qmark1;
+  margin: 80px 0 50px 100px;
+}
+
+.qmark2 {
+  grid-area: qmark2;
+  margin: 80px 100px 50px 0;
+}
+
+.qmark3 {
+  grid-area: qmark3;
+  margin: 80px 0 50px 100px;
+}
+
+
+.faqtxt1 {
+  grid-area: faqtxt1;
+}
+.faqtxt2 {
+  grid-area: faqtxt2;
+}
+.faqtxt3 {
+  grid-area: faqtxt3;
+}
+
+.faqbox {
+  margin: 50px 70px 50px 70px;
+  background-color: #fcfcfc;
+  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+}
+.faqbox p {
+  text-align: justify;
+  margin: 0 20px 30px 20px;
+}
+
+.faqbox h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/lightback.png');
+    padding-top: 200px;
+    /* Full height */
+    height: 450px;
+    grid-area: paral;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxTERMS {
+    /* The image used */
+    background-image: url('../img/terms.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxCONTACTUS {
+    /* The image used */
+    background-image: url('../img/contact.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.parallaxFAQ {
+    /* The image used */
+    background-image: url('../img/faqh.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxGUIDE {
+    /* The image used */
+    background-image: url('../img/beginners.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxTRACK {
+    /* The image used */
+    background-image: url('../img/trackr.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxKNOWLEDGE {
+    /* The image used */
+    background-image: url('../img/knowledge.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxSERVICES {
+    /* The image used */
+    background-image: url('../img/services.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallaxABOUT {
+    /* The image used */
+    background-image: url('../img/aboutus.jpg');
+    padding-top: 200px;
+    /* Full height */
+    height: 250px;
+    grid-area: paral1;
+    /* Create the parallax scrolling effect */
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.titlepara {
+    text-align: center;
+    color: white;
+}
+
+.titlepara h1 {
+  letter-spacing: 4px;
+  margin-bottom: 45px;
+  font-size: 5em;
+}
+
+.titlepara h2 {
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.mygi {
+  background-color: orange;
+  background-image: linear-gradient( to right, #d24d00, #f17d00 );
+  padding: 10px 25px 10px 25px;
+  width: 90px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+
+.mygi:hover {
+  background-image: radial-gradient(circle at top right , #f17d00 ,#9b3900  );
+}
+
+.mygi2 {
+  background-color: orange;
+  background-image: linear-gradient( 160deg, #b5c9d4 0%, #b7cbd6 14%, #72848f 52%, #5b686f 76% , #4f5b64 100%);
+  padding: 10px 25px 10px 25px;
+  width: 90px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+
+.mygi2:hover {
+  background-image: radial-gradient(circle at bottom right ,#5b686f , #b7cbd6 );
+}
+
+.servbox {
+  box-shadow: 0 5px 2px rgba(0,0,0,.1);
+  height: 200px;
+  padding: 20px;
+}
+
+.servbox p{
+  text-align: justify;
+}
+
+.servbox img {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.servicesgrid {
+  margin-bottom: 3rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas:
+  "tlf gears moni"
+  "pliusirrakt pliusirrakt pliusirrakt"
+  ". mig .";
+}
+
+.pliusirrakt {
+  grid-area: pliusirrakt;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: auto;
+  grid-template-areas:
+  ". plius plius rakt rakt .";
+}
+
+.tlf {
+  grid-area: tlf;
+}
+.gears {
+  grid-area: gears;
+}
+.moni {
+  grid-area: moni;
+}
+.plius {
+  grid-area: plius;
+}
+.rakt {
+  grid-area: rakt;
+}
+.mig {
+  margin-top: 6.5rem;
+  margin-left: 5.5rem;
+  height: 20px;
+  grid-area: mig;
+}
+
+.goalcont {
+padding-bottom: 6rem;
+}
+
+.mi {
+  grid-area: mi;
+}
+
+
+.pd {
+  margin-bottom: 70px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header header header"
+  "paral paral paral paral"
+  ". home-services home-services ."
+  "home-trackrecord home-trackrecord home-trackrecord home-trackrecord"
+  ". home-wearegoalgrid home-wearegoalgrid ."
+  ". mi mi ."
+  "home-pricing home-pricing home-pricing home-pricing"
+  "home-contact home-contact home-contact home-contact"
+  "footer footer footer footer";
+}
+
+.home-wearegoalgrid {
+  grid-area: home-wearegoalgrid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "home-weare home-goal"
+}
+
+
+.home-contact {
+  grid-area: home-contact;
+  background-image: url('../img/contact_us_background.jpg');
+  color: white;
+  background-size: cover;
+  background-clip: border-box;
+  height: 15rem;
+}
+
+.contractgrid {
+  height: 15rem;
+  display: grid;
+  grid-template-columns: 1fr 700px 300px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  ". contacttxt contactbtn ."
+}
+
+.contacttxt {
+  letter-spacing: 2px;
+  grid-area: contacttxt;
+  text-align: left;
+  font-size: 21px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+.contacttxt h1 {
+  margin-top: 60px;
+  font-size: 28px;
+
+}
+
+.contactbtn {
+  margin-top: 100px;
+  margin-left: 40px;
+  grid-area: contactbtn;
+}
+
+.whitespace {
+  grid-area: whitespace;
+  background-color: white;
+}
+
+.whitespace img {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.whitespace2 {
+  grid-area: whitespace2;
+  background-color: white;
+}
+
+.whitespace2 img {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 8px;
+
+}
+/* Read more button */
+
+.readmore {
+  font-size: 40;
+  text-align: right;
+}
+
+.readmore a {
+  background-color: brown;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Home-Services */
+
+.home-services {
+  grid-area: home-services;
+  background-color: white;
+  text-align: left;
+  text-overflow: clip;
+  padding: 7px;
+}
+
+.home-services h2 {
+  padding-top: 60px;
+}
+
+/* Home-Trackrecord */
+
+.home-trackrecord {
+  letter-spacing: 1px;
+  grid-area: home-trackrecord;
+  background-image: url('../img/track.jpg');
+  background-size:cover;
+  background-position: center;
+  text-align: left;
+  text-overflow: clip;
+  height: 440px;
+}
+
+.trackgrid {
+  display: grid;
+  grid-template-columns: 1fr 700px 300px 1fr;
+  grid-template-rows: 440px;
+  grid-template-areas:
+  "trackr trackr . .";
+}
+
+.trackr {
+  grid-area: trackr;
+  color: white;
+  background-image: linear-gradient( 125deg , rgba(220, 103, 30, 0.25), #303131, rgba(36, 37, 38 , 0.5) );
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 1fr 1fr;
+  grid-template-rows: 440px;
+  grid-template-areas:
+  ". . . trackrtxt trackrtxt";
+}
+
+.trackrtxt {
+  grid-area: trackrtxt;
+}
+
+.tr {
+  margin-left: 15rem;
+}
+
+.trackr p {
+  margin-left: 30px;
+  margin-right: 60px;
+  padding-bottom: 2rem;
+}
+
+.home-trackrecord h2 {
+  margin: 0;
+  padding-top: 40px;
+
+  text-align: center;
+  font-size: 30px;
+}
+
+.home-weare {
+  letter-spacing: 1px;
+  grid-area: home-weare;
+  background-color: white;
+  padding: 25px;
+  text-align: justify;
+  padding-bottom: 110px;
+  margin-top: 50px;
+}
+
+.home-weare h1 {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+.home-weare img {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+.home-goal {
+  letter-spacing: 1px;
+  grid-area: home-goal;
+  background-color: white;
+  padding: 25px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.goalsh {
+  height: 640px;
+  padding: 0 20px 0 20px;;
+  box-shadow: 0 5px 2px rgba(0,0,0,.1);
+}
+
+.wesh {
+  height: 640px;
+  padding: 0 20px 0 20px;;
+  box-shadow: 0 5px 2px rgba(0,0,0,.1);
+}
+
+.home-goal h1 {
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+.home-goal img {
+
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+
+.home-pricing {
+  padding-top: 40px;
+  padding-bottom: 110px;
+  grid-area: home-pricing;
+  background-color: #f6f7f4;
+  float: left;
+
+}
+
+.pricinggrid {
+
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-areas:
+  ". pricingbox pricingbox .";
+}
+
+.pricingbox {
+  grid-area: pricingbox;
+  margin: 20px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+  "box1 box2 box3";
+}
+
+.smlrtxt {
+  font-size: 14px;
+  margin: 0 25px 0 25px;
+}
+
+.box1 {
+  background: linear-gradient(0deg, #ecede8 0%, #f9f9f7 46%, white 100%);
+  margin: 15px;
+  grid-area: box1;
+  padding-bottom: 40px;
+  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+}
+.box2 {
+  background: linear-gradient(0deg, #ecede8 0%, #f9f9f7 46%, white 100%);
+  margin: 15px;
+  grid-area: box2;
+  padding-bottom: 40px;
+  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+}
+.box3 {
+  background: linear-gradient(0deg, #ecede8 0%, #f9f9f7 46%, white 100%);
+  margin: 15px;
+  grid-area: box3;
+  padding-bottom: 40px;
+  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+}
+
+.bald {
+  font-weight: bold;
+}
+
+.boxtitle {
+  margin-top: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.subtxt {
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  background: linear-gradient(160deg, #fad04f 0%, #f1ac2a 30%, #dc671e 60%, #fad04f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtxt2 {
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  background: linear-gradient(160deg, #666b6f 0%, #b5c9d4 50%, #cacdbe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.subscribe {
+  color: white;
+  background-color: black;
+  margin: 0 50px 0 50px;
+}
+.subscribe a {
+  color: white;
+}

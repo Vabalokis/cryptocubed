@@ -1,0 +1,61 @@
+
+body {
+
+  color: white;
+  background-image: url('../../img/back.jpg');
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 5px 5px 20px #000000;
+}
+
+.bk table {
+
+  text-align: center;
+  color: black;
+  border-collapse: collapse;
+  background-color: white;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 8px;
+}
+
+.bk table tr  {
+    border: 0;
+
+}
+
+.bk table tr:nth-child(even) {
+    background: whitesmoke;
+}
+
+.bk table form {
+  margin-bottom: 0;
+}
+
+#sort {
+  display: inline-grid;
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  background-size: contain;
+  margin-left:43%;
+  margin-right:43%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#sorting th {
+  padding: 0 8px 0 8px;
+}
+
+#sortbtn {
+  padding: 8px;
+  margin: 5px 0 2px 0;
+}
