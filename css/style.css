@@ -1,37 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 /* body */
 
 body {
-    text-align: center;
-
+  text-align: center;
 }
 
 body h2 {
-    margin: 0 400px 0 400px;
-    padding-bottom: 30px;
-  
+  margin: 0 400px 0 400px;
+  padding-bottom: 30px;
 }
 
 /* footer */
 
 footer {
-    padding-bottom: 20px;
-    text-align: left;
-    color: black;
-    background-color: #eff0f0;
+  padding-bottom: 20px;
+  text-align: left;
+  color: black;
+  background-color: #eff0f0;
 }
 
 footer hr {
-    padding-top: 15px;
-    margin: 0 50px 0 50px;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-top: 0;
+  padding-top: 15px;
+  margin: 0 50px 0 50px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top: 0;
 }
 
 .gr {
@@ -41,9 +39,9 @@ footer hr {
 }
 
 .footcent {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .footiconcent {
@@ -83,74 +81,71 @@ footer hr {
   grid-area: footer;
 }
 
-
 header {
-
-    text-align: left;
-    color: black;
-    background-color: white;
-    font-size: 20px;
+  text-align: left;
+  color: black;
+  background-color: white;
+  font-size: 20px;
 }
 
 .navigation {
-    grid-area: nav;
-    float: left;
-    margin-left: 8rem;
-    margin-top: 3.5rem;
-    font-size: 15px;
-    color:black;
-    display: flex;
-    background: white;
+  grid-area: nav;
+  float: left;
+  margin-left: 8rem;
+  margin-top: 3.5rem;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  background: white;
 }
 
-.navigation  a {
-    letter-spacing: 1px;
-    color: black;
-    text-decoration: none;
-    display:inline-block;
-    transition: all .3s ease-out;
-    border-bottom:2px solid transparent;
+.navigation a {
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease-out;
+  border-bottom: 2px solid transparent;
 }
 
 .navigation a:hover {
-    color: orange;
-
+  color: orange;
 }
 
 .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation li {
-    margin: 0 5px 0 5px;
-    display: inline;
-    cursor: pointer;
+  margin: 0 5px 0 5px;
+  display: inline;
+  cursor: pointer;
 }
 
 .imageandtext {
-    grid-area: logo;
-    position: relative;
-    color: black;
+  grid-area: logo;
+  position: relative;
+  color: black;
 }
 
 .imageandtext h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .crip {
-    letter-spacing: 1px;
-    position: absolute;
-    bottom: 10px;
-    left:5px;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
 }
 
 .cube {
-    letter-spacing: 1px;
-    position: absolute;
-    bottom: 10px;
-    margin-left: 85px;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 85px;
 }
 
 .imageandtext img {
@@ -159,15 +154,12 @@ header {
   padding-bottom: 5px;
 }
 
-
 .headercont {
   display: grid;
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-  ". hdgrd hdgrd .";
+  grid-template-areas: ". hdgrd hdgrd .";
 }
-
 
 .headergrid {
   grid-area: hdgrd;
@@ -175,8 +167,7 @@ header {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  "logo nav nav nav";
+  grid-template-areas: "logo nav nav nav";
 }
 
 .gridTRACK {
@@ -186,8 +177,7 @@ header {
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". trackcont trackcont .";
+  grid-template-areas: ". trackcont trackcont .";
 }
 
 .trackcont {
@@ -199,11 +189,11 @@ header {
   grid-auto-flow: dense;
   grid-gap: 10px;
   grid-template-areas:
-  "january"
-  "coins"
-  "holding"
-  "return"
-  "buysell";
+    "january"
+    "coins"
+    "holding"
+    "return"
+    "buysell";
 }
 
 .trackbox {
@@ -212,7 +202,7 @@ header {
   margin-left: 100px;
   margin-right: 40px;
   background-color: #fbfbfa;
-  box-shadow: 0 4px 2px rgba(0,0,0,.1);
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
 }
 
 .circlOUTtrack {
@@ -223,7 +213,7 @@ header {
   background-color: white;
   margin-left: -55px;
   margin-top: 5px;
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .circlOUTtrackcoin {
@@ -234,7 +224,7 @@ header {
   background-color: white;
   margin-left: -55px;
   margin-top: 60px;
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .circlINtrack {
@@ -261,7 +251,6 @@ header {
   float: left;
   display: block;
   margin: 9px;
-  
 }
 
 .logot img {
@@ -326,14 +315,12 @@ header {
   grid-area: return;
 }
 
-
 .gridABOUT {
   display: grid;
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". aboutcont aboutcont .";
+  grid-template-areas: ". aboutcont aboutcont .";
 }
 
 .aboutcont {
@@ -358,13 +345,11 @@ header {
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". guidecont guidecont .";
+  grid-template-areas: ". guidecont guidecont .";
 }
 
 .guidecont {
   grid-area: guidecont;
-
 }
 .guidecont p {
   text-align: justify;
@@ -381,12 +366,10 @@ header {
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". servicescont servicescont .";
+  grid-template-areas: ". servicescont servicescont .";
 }
 
 .servicescont {
-
   grid-area: servicescont;
   display: grid;
   grid-gap: 30px;
@@ -394,29 +377,25 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-  "invsignals manage"
-  "future coinreq";
+    "invsignals manage"
+    "future coinreq";
 }
 
 .invsignals {
   margin-top: 100px;
   grid-area: invsignals;
-
 }
 .manage {
   margin-top: 100px;
   grid-area: manage;
-
 }
 .future {
   margin-top: 100px;
   grid-area: future;
-
 }
 .coinreq {
   margin-top: 100px;
   grid-area: coinreq;
-
 }
 
 .circlOUT {
@@ -427,7 +406,7 @@ header {
   background-color: white;
   margin-left: 150px;
   margin-top: -450px;
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .circlIN {
@@ -445,21 +424,20 @@ header {
 }
 
 .contain {
-
   color: white;
   position: relative;
 }
 .contain h3 {
   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   font-size: 22px;
-   letter-spacing: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 
 .contain img {
-  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .overlay {
@@ -471,12 +449,11 @@ header {
   height: 99%;
   width: 97.5%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #fcfcfc;
   color: black;
   margin-left: 5px;
   margin-right: 50px;
-
 }
 
 .titletext {
@@ -503,8 +480,7 @@ header {
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". termscont termscont .";
+  grid-template-areas: ". termscont termscont .";
 }
 
 .termscont {
@@ -518,22 +494,20 @@ header {
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". faqcont faqcont .";
+  grid-template-areas: ". faqcont faqcont .";
 }
 
 .faqcont {
   letter-spacing: 1px;
   grid-area: faqcont;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-  "qmark1 faqtxt1 faqtxt1 faqtxt1 faqtxt1 faqtxt1"
-  "faqtxt2 faqtxt2 faqtxt2 faqtxt2 faqtxt2 qmark2"
-  "qmark3 faqtxt3 faqtxt3 faqtxt3 faqtxt3 faqtxt3";
+    "qmark1 faqtxt1 faqtxt1 faqtxt1 faqtxt1 faqtxt1"
+    "faqtxt2 faqtxt2 faqtxt2 faqtxt2 faqtxt2 qmark2"
+    "qmark3 faqtxt3 faqtxt3 faqtxt3 faqtxt3 faqtxt3";
 }
-
 
 .gridCONTACTUS {
   margin-top: 50px;
@@ -542,19 +516,17 @@ header {
   grid-template-columns: 1fr 333px 333px 333px 1fr;
   grid-template-rows: auto;
   grid-auto-flow: dense;
-  grid-template-areas:
-  ". . contactcont . .";
+  grid-template-areas: ". . contactcont . .";
   text-align: center;
 }
 
 .contactcont {
   grid-area: contactcont;
   font-size: 20px;
-  
 }
 
 .contactcont input {
-  border:0;
+  border: 0;
   margin: 5px 0 5px 0;
   padding: 3px 15px 3px 15px;
   background-color: whitesmoke;
@@ -562,7 +534,7 @@ header {
 }
 
 .contactcont textarea {
-  border:0;
+  border: 0;
   margin: 5px 0 5px 0;
   padding: 0 15px 0 15px;
   background-color: whitesmoke;
@@ -584,7 +556,6 @@ header {
   margin: 80px 0 50px 100px;
 }
 
-
 .faqtxt1 {
   grid-area: faqtxt1;
 }
@@ -598,7 +569,7 @@ header {
 .faqbox {
   margin: 50px 70px 50px 70px;
   background-color: #fcfcfc;
-  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 .faqbox p {
   text-align: justify;
@@ -612,148 +583,134 @@ header {
 }
 
 .parallax {
-    /* The image used */
-    background-image: url('../img/lightback.png');
-    padding-top: 200px;
-    /* Full height */
-    height: 450px;
-    grid-area: paral;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/lightback.png");
+  padding-top: 200px;
+  /* Full height */
+  height: 450px;
+  grid-area: paral;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxTERMS {
-    /* The image used */
-    background-image: url('../img/terms.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/terms.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxCONTACTUS {
-    /* The image used */
-    background-image: url('../img/contact.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/contact.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-
 .parallaxFAQ {
-    /* The image used */
-    background-image: url('../img/faqh.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/faqh.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxGUIDE {
-    /* The image used */
-    background-image: url('../img/beginners.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/beginners.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxTRACK {
-    /* The image used */
-    background-image: url('../img/trackr.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/trackr.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxKNOWLEDGE {
-    /* The image used */
-    background-image: url('../img/knowledge.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/knowledge.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxSERVICES {
-    /* The image used */
-    background-image: url('../img/services.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/services.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallaxABOUT {
-    /* The image used */
-    background-image: url('../img/aboutus.jpg');
-    padding-top: 200px;
-    /* Full height */
-    height: 250px;
-    grid-area: paral1;
-    /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  /* The image used */
+  background-image: url("../img/aboutus.jpg");
+  padding-top: 200px;
+  /* Full height */
+  height: 250px;
+  grid-area: paral1;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
 .titlepara {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .titlepara h1 {
@@ -769,39 +726,46 @@ header {
 
 .mygi {
   background-color: orange;
-  background-image: linear-gradient( to right, #d24d00, #f17d00 );
+  background-image: linear-gradient(to right, #d24d00, #f17d00);
   padding: 10px 25px 10px 25px;
   width: 90px;
   color: white;
   text-decoration: none;
-  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .mygi:hover {
-  background-image: radial-gradient(circle at top right , #f17d00 ,#9b3900  );
+  background-image: radial-gradient(circle at top right, #f17d00, #9b3900);
 }
 
 .mygi2 {
   background-color: orange;
-  background-image: linear-gradient( 160deg, #b5c9d4 0%, #b7cbd6 14%, #72848f 52%, #5b686f 76% , #4f5b64 100%);
+  background-image: linear-gradient(
+    160deg,
+    #b5c9d4 0%,
+    #b7cbd6 14%,
+    #72848f 52%,
+    #5b686f 76%,
+    #4f5b64 100%
+  );
   padding: 10px 25px 10px 25px;
   width: 90px;
   color: white;
   text-decoration: none;
-  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .mygi2:hover {
-  background-image: radial-gradient(circle at bottom right ,#5b686f , #b7cbd6 );
+  background-image: radial-gradient(circle at bottom right, #5b686f, #b7cbd6);
 }
 
 .servbox {
-  box-shadow: 0 5px 2px rgba(0,0,0,.1);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
   height: 200px;
   padding: 20px;
 }
 
-.servbox p{
+.servbox p {
   text-align: justify;
 }
 
@@ -818,19 +782,18 @@ header {
   grid-template-rows: auto;
   grid-gap: 10px;
   grid-template-areas:
-  "tlf gears moni"
-  "pliusirrakt pliusirrakt pliusirrakt"
-  ". mig .";
+    "tlf gears moni"
+    "pliusirrakt pliusirrakt pliusirrakt"
+    ". mig .";
 }
 
 .pliusirrakt {
   grid-area: pliusirrakt;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-  ". plius plius rakt rakt .";
+  grid-template-areas: ". plius plius rakt rakt .";
 }
 
 .tlf {
@@ -856,13 +819,12 @@ header {
 }
 
 .goalcont {
-padding-bottom: 6rem;
+  padding-bottom: 6rem;
 }
 
 .mi {
   grid-area: mi;
 }
-
 
 .pd {
   margin-bottom: 70px;
@@ -873,15 +835,15 @@ padding-bottom: 6rem;
   grid-template-columns: 1fr 500px 500px 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-  "header header header header"
-  "paral paral paral paral"
-  ". home-services home-services ."
-  "home-trackrecord home-trackrecord home-trackrecord home-trackrecord"
-  ". home-wearegoalgrid home-wearegoalgrid ."
-  ". mi mi ."
-  "home-pricing home-pricing home-pricing home-pricing"
-  "home-contact home-contact home-contact home-contact"
-  "footer footer footer footer";
+    "header header header header"
+    "paral paral paral paral"
+    ". home-services home-services ."
+    "home-trackrecord home-trackrecord home-trackrecord home-trackrecord"
+    ". home-wearegoalgrid home-wearegoalgrid ."
+    ". mi mi ."
+    "home-pricing home-pricing home-pricing home-pricing"
+    "home-contact home-contact home-contact home-contact"
+    "footer footer footer footer";
 }
 
 .home-wearegoalgrid {
@@ -889,14 +851,12 @@ padding-bottom: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-  "home-weare home-goal"
+  grid-template-areas: "home-weare home-goal";
 }
-
 
 .home-contact {
   grid-area: home-contact;
-  background-image: url('../img/contact_us_background.jpg');
+  background-image: url("../img/contact_us_background.jpg");
   color: white;
   background-size: cover;
   background-clip: border-box;
@@ -908,8 +868,7 @@ padding-bottom: 6rem;
   display: grid;
   grid-template-columns: 1fr 700px 300px 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-  ". contacttxt contactbtn ."
+  grid-template-areas: ". contacttxt contactbtn .";
 }
 
 .contacttxt {
@@ -924,7 +883,6 @@ padding-bottom: 6rem;
 .contacttxt h1 {
   margin-top: 60px;
   font-size: 28px;
-
 }
 
 .contactbtn {
@@ -955,7 +913,6 @@ padding-bottom: 6rem;
   height: 300px;
   margin-top: 50px;
   border-radius: 8px;
-
 }
 /* Read more button */
 
@@ -990,8 +947,8 @@ padding-bottom: 6rem;
 .home-trackrecord {
   letter-spacing: 1px;
   grid-area: home-trackrecord;
-  background-image: url('../img/track.jpg');
-  background-size:cover;
+  background-image: url("../img/track.jpg");
+  background-size: cover;
   background-position: center;
   text-align: left;
   text-overflow: clip;
@@ -1002,19 +959,22 @@ padding-bottom: 6rem;
   display: grid;
   grid-template-columns: 1fr 700px 300px 1fr;
   grid-template-rows: 440px;
-  grid-template-areas:
-  "trackr trackr . .";
+  grid-template-areas: "trackr trackr . .";
 }
 
 .trackr {
   grid-area: trackr;
   color: white;
-  background-image: linear-gradient( 125deg , rgba(220, 103, 30, 0.25), #303131, rgba(36, 37, 38 , 0.5) );
+  background-image: linear-gradient(
+    125deg,
+    rgba(220, 103, 30, 0.25),
+    #303131,
+    rgba(36, 37, 38, 0.5)
+  );
   display: grid;
   grid-template-columns: 0.7fr 0.7fr 0.7fr 1fr 1fr;
   grid-template-rows: 440px;
-  grid-template-areas:
-  ". . . trackrtxt trackrtxt";
+  grid-template-areas: ". . . trackrtxt trackrtxt";
 }
 
 .trackrtxt {
@@ -1050,17 +1010,15 @@ padding-bottom: 6rem;
 }
 
 .home-weare h1 {
- text-align: center;
- padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .home-weare img {
   display: block;
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
 
 .home-goal {
   letter-spacing: 1px;
@@ -1073,29 +1031,26 @@ padding-bottom: 6rem;
 
 .goalsh {
   height: 640px;
-  padding: 0 20px 0 20px;;
-  box-shadow: 0 5px 2px rgba(0,0,0,.1);
+  padding: 0 20px 0 20px;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
 }
 
 .wesh {
   height: 640px;
-  padding: 0 20px 0 20px;;
-  box-shadow: 0 5px 2px rgba(0,0,0,.1);
+  padding: 0 20px 0 20px;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
 }
 
 .home-goal h1 {
- text-align: center;
- padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .home-goal img {
-
   display: block;
- margin-left: auto;
- margin-right: auto;
-
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 .home-pricing {
   padding-top: 40px;
@@ -1103,15 +1058,12 @@ padding-bottom: 6rem;
   grid-area: home-pricing;
   background-color: #f6f7f4;
   float: left;
-
 }
 
 .pricinggrid {
-
   display: grid;
   grid-template-columns: 1fr 500px 500px 1fr;
-  grid-template-areas:
-  ". pricingbox pricingbox .";
+  grid-template-areas: ". pricingbox pricingbox .";
 }
 
 .pricingbox {
@@ -1121,8 +1073,7 @@ padding-bottom: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
-  grid-template-areas:
-  "box1 box2 box3";
+  grid-template-areas: "box1 box2 box3";
 }
 
 .smlrtxt {
@@ -1135,21 +1086,21 @@ padding-bottom: 6rem;
   margin: 15px;
   grid-area: box1;
   padding-bottom: 40px;
-  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 .box2 {
   background: linear-gradient(0deg, #ecede8 0%, #f9f9f7 46%, white 100%);
   margin: 15px;
   grid-area: box2;
   padding-bottom: 40px;
-  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 .box3 {
   background: linear-gradient(0deg, #ecede8 0%, #f9f9f7 46%, white 100%);
   margin: 15px;
   grid-area: box3;
   padding-bottom: 40px;
-  box-shadow: 0 5px 2px rgba(0,0,0,.2);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .bald {
@@ -1168,7 +1119,13 @@ padding-bottom: 6rem;
   letter-spacing: 1px;
   padding-bottom: 15px;
   font-size: 24px;
-  background: linear-gradient(160deg, #fad04f 0%, #f1ac2a 30%, #dc671e 60%, #fad04f 100%);
+  background: linear-gradient(
+    160deg,
+    #fad04f 0%,
+    #f1ac2a 30%,
+    #dc671e 60%,
+    #fad04f 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1181,7 +1138,6 @@ padding-bottom: 6rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .subscribe {
   color: white;
